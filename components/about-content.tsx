@@ -25,7 +25,7 @@ export function AboutContent() {
       <div className="grid md:grid-cols-3 gap-8 mb-16">
         <div className="md:col-span-1">
           <div className="relative w-full h-96 rounded-lg overflow-hidden">
-            <Image src="/images/profile/profile.jpg" alt="프로필 사진" fill className="object-contain object-top" />
+            <Image src="/portfolio/images/profile/profile.jpg" alt="프로필 사진" fill className="object-contain object-top" />
           </div>
         </div>
         <div className="md:col-span-2">

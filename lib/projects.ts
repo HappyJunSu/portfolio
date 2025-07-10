@@ -47,15 +47,15 @@ const projects: Project[] = [
       <h2 class="text-2xl font-bold mb-4">배운 점</h2>
       <p class="text-lg mb-4">이 프로젝트를 통해 전체 서비스 구조를 설계하고 구현하는 경험을 쌓을 수 있었으며, 사용자 중심의 서비스 흐름과 데이터 기반 피드백 시스템 설계에 대해 깊이 고민해볼 수 있었습니다. 또한 날짜/시간 처리, API 설계, 시각화 등의 실무 기술을 프로젝트에 녹여내며 프론트엔드와 백엔드를 아우르는 개발 경험을 쌓았습니다.</p>
     `,
-    coverImage: "/images/projects/sleep-cycle/sleep-main.png",
+    coverImage: "/portfolio/images/projects/sleep-cycle/sleep-main.png",
     images: [
-      "/images/projects/sleep-cycle/sleep1.png",
-      "/images/projects/sleep-cycle/sleep2.png",
-      "/images/projects/sleep-cycle/sleep3.png",
-      "/images/projects/sleep-cycle/sleep4.png",
-      "/images/projects/sleep-cycle/sleep5.png",
-      "/images/projects/sleep-cycle/sleep6.png",
-      "/images/projects/sleep-cycle/sleep7.png",
+      "/portfolio/images/projects/sleep-cycle/sleep1.png",
+      "/portfolio/images/projects/sleep-cycle/sleep2.png",
+      "/portfolio/images/projects/sleep-cycle/sleep3.png",
+      "/portfolio/images/projects/sleep-cycle/sleep4.png",
+      "/portfolio/images/projects/sleep-cycle/sleep5.png",
+      "/portfolio/images/projects/sleep-cycle/sleep6.png",
+      "/portfolio/images/projects/sleep-cycle/sleep7.png",
     ],
     technologies: ["React", "Node.js", "MySQL", "Chart.js", "Express", "JWT"],
     featured: true,
@@ -95,14 +95,14 @@ const projects: Project[] = [
       <h2 class="text-2xl font-bold mb-4">배운 점</h2>
       <p class="text-lg mb-4">이 프로젝트를 통해 협업의 중요성과 시스템적 사고의 필요성을 함께 경험할 수 있었습니다. 또한 제한된 환경에서 창의적인 문제 해결 방법을 모색하는 경험을 쌓았으며, 게임 로직 설계와 사용자 경험 개선에 대한 이해를 넓힐 수 있었습니다.</p>
     `,
-    coverImage: "/images/projects/console-game/console-main.png",
+    coverImage: "/portfolio/images/projects/console-game/console-main.png",
     images: [
-      "/images/projects/console-game/console1.png",
-      "/images/projects/console-game/console2.png",
-      "/images/projects/console-game/console3.png",
-      "/images/projects/console-game/console4.png",
-      "/images/projects/console-game/console5.png",
-      "/images/projects/console-game/console6.png",
+      "/portfolio/images/projects/console-game/console1.png",
+      "/portfolio/images/projects/console-game/console2.png",
+      "/portfolio/images/projects/console-game/console3.png",
+      "/portfolio/images/projects/console-game/console4.png",
+      "/portfolio/images/projects/console-game/console5.png",
+      "/portfolio/images/projects/console-game/console6.png",
     ],
     technologies: ["C", "콘솔 입출력", "Windows API", "ASCII Graphics", "conio.h"],
     featured: false,
@@ -140,13 +140,13 @@ const projects: Project[] = [
       <h2 class="text-2xl font-bold mb-4">배운 점</h2>
       <p class="text-lg mb-4">이 프로젝트를 통해 게임 기획, 3D 인터랙션, VR 환경 최적화, 그리고 플레이어 중심 UX 설계 등 게임 개발의 핵심 요소들을 폭넓게 경험할 수 있었습니다. 또한 Unity와 C#을 사용하여 물리 기반 상호작용, 이벤트 기반 트리거, 자원 관리 시스템 등 실질적인 게임 메커니즘을 구현해보며, 게임 개발에 대한 실전 감각을 높일 수 있었습니다.</p>
     `,
-    coverImage: "/images/projects/vr-game/vr-main.png",
+    coverImage: "/portfolio/images/projects/vr-game/vr-main.png",
     images: [
-      "/images/projects/vr-game/vr1.png",
-      "/images/projects/vr-game/vr2.png",
-      "/images/projects/vr-game/vr3.png",
-      "/images/projects/vr-game/vr4.png",
-      "/images/projects/vr-game/vr5.png",
+      "/portfolio/images/projects/vr-game/vr1.png",
+      "/portfolio/images/projects/vr-game/vr2.png",
+      "/portfolio/images/projects/vr-game/vr3.png",
+      "/portfolio/images/projects/vr-game/vr4.png",
+      "/portfolio/images/projects/vr-game/vr5.png",
     ],
     technologies: ["Unity", "C#", "VR 개발", "Oculus SDK", "3D 모델링"],
     featured: true,
@@ -183,9 +183,9 @@ const projects: Project[] = [
       <h2 class="text-2xl font-bold mb-4">배운 점</h2>
       <p class="text-lg mb-4">이 프로젝트를 통해 센서 기반 하드웨어 프로그래밍과 실시간 메시지 API 연동이라는 이질적인 두 영역을 연결해보는 경험을 쌓을 수 있었습니다. 또한 Raspberry Pi 환경 설정, 외부 API 인증 처리, 센서 값 필터링 등 실제 서비스로 확장 가능한 요소들을 구현하면서 IoT 개발에 대한 전반적인 이해와 자신감을 얻었습니다.</p>
     `,
-    coverImage: "/images/projects/gas-alarm/gas-main.jpg",
+    coverImage: "/portfolio/images/projects/gas-alarm/gas-main.jpg",
     images: [
-      "/images/projects/gas-alarm/gas1.jpg",
+      "/portfolio/images/projects/gas-alarm/gas1.jpg",
     ],
     technologies: ["Raspberry Pi", "Python", "카카오톡 API"],
     featured: true,
