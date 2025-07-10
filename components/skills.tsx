@@ -24,11 +24,14 @@ export function Skills() {
   return (
     <section id="skills" className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">기술 스택</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-6">
             {skillCategories.map((category, index) => (
-              <Card key={index} className="bg-background">
+              <Card
+                key={index}
+                className="bg-card shadow-md transition-all"
+              >
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-semibold mb-4 text-center">{category.title}</h3>
                   <div className="flex flex-wrap gap-2 justify-center">

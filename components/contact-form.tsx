@@ -1,6 +1,26 @@
-import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Mail, Phone, MapPin } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+
+const contactItems = [
+  {
+    icon: Mail,
+    label: "이메일",
+    value: "tvi***@naver.com",
+    ariaLabel: "이메일 주소",
+  },
+  {
+    icon: Phone,
+    label: "전화번호",
+    value: "+82 10-****-2317",
+    ariaLabel: "전화번호",
+  },
+  {
+    icon: MapPin,
+    label: "위치",
+    value: "경기도 용인시 기흥구, 대한민국",
+    ariaLabel: "위치 정보",
+  },
+]
 
 export function ContactForm() {
   return (
@@ -8,33 +28,26 @@ export function ContactForm() {
       <Card>
         <CardHeader className="text-center">
           <CardTitle className="text-2xl">연락처</CardTitle>
-          <CardDescription>취업 기회나 프로젝트 협업에 관심이 있으시면 언제든지 연락주세요!</CardDescription>
+          <CardDescription>
+            취업 기회나 프로젝트 협업에 관심이 있으시면 언제든지 연락주세요!
+          </CardDescription>
         </CardHeader>
+
         <CardContent className="space-y-6">
           <div className="grid gap-4">
-            <div className="flex items-center space-x-4 p-4 rounded-lg bg-muted/50">
-              <Mail className="h-6 w-6 text-primary" />
-              <div>
-                <p className="font-medium">이메일</p>
-                <p className="text-muted-foreground">tvi***@naver.com</p>
+            {contactItems.map((item, index) => (
+              <div
+                key={index}
+                className="flex items-center space-x-4 p-4 rounded-lg bg-muted/50"
+                aria-label={item.ariaLabel}
+              >
+                <item.icon className="h-6 w-6 text-primary" role="img" aria-hidden="true" />
+                <div>
+                  <p className="font-medium">{item.label}</p>
+                  <p className="text-muted-foreground">{item.value}</p>
+                </div>
               </div>
-            </div>
-
-            <div className="flex items-center space-x-4 p-4 rounded-lg bg-muted/50">
-              <Phone className="h-6 w-6 text-primary" />
-              <div>
-                <p className="font-medium">전화번호</p>
-                <p className="text-muted-foreground">+82 10-****-2317</p>
-              </div>
-            </div>
-
-            <div className="flex items-center space-x-4 p-4 rounded-lg bg-muted/50">
-              <MapPin className="h-6 w-6 text-primary" />
-              <div>
-                <p className="font-medium">위치</p>
-                <p className="text-muted-foreground">경기도 용인시 기흥구, 대한민국</p>
-              </div>
-            </div>
+            ))}
           </div>
         </CardContent>
       </Card>

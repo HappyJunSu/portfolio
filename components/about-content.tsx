@@ -32,7 +32,9 @@ export function AboutContent() {
           <h2 className="text-2xl font-bold mb-4">안녕하세요!</h2>
           <div className="space-y-4 text-lg">
             <p>
-              저는 IT 분야에서 성장하며 의미 있는 서비스를 만들고자 하는 취업 준비생 이준수 입니다.<p></p>
+              저는 IT 분야에서 성장하며 의미 있는 서비스를 만들고자 하는 취업 준비생 이준수 입니다.
+              <p>
+              </p>
               사용자 중심의 웹 애플리케이션은 물론, 몰입감 있는 게임 콘텐츠에도 관심을 가지고 다양한 기술을 탐구해왔습니다.
             </p>
             <p>
