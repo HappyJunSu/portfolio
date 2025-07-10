@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "이준수 Portfolio",
     images: [
       {
-        url: "https://portfolio-one-delta-ui6gouh6fo.vercel.app/og-image.png",
+        url: "https://portfolio-one-delta-ui6gouh6fo.vercel.app/images/og/og-image.png",
         width: 1200,
         height: 630,
         alt: "이준수 Portfolio 대표 이미지",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "이준수 portfolio",
     description: "웹 개발, 게임 개발에 열정을 가진 개발자 이준수의 포트폴리오입니다.",
-    images: ["https://portfolio-one-delta-ui6gouh6fo.vercel.app/og-image.png"],
+    images: ["https://portfolio-one-delta-ui6gouh6fo.vercel.app/images/og/og-image.png"],
   },
 }
 
