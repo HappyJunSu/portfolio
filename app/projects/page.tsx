@@ -4,7 +4,7 @@ import { ProjectGrid } from "components/project-grid"
 import { getProjects } from "lib/projects"
 
 export const metadata = {
-  title: "프로젝트 | 개발자 포트폴리오",
+  title: "프로젝트 | 이준수 Portfolio",
   description: "제가 지금까지 수행한 프로젝트들을 소개합니다.",
 }
 

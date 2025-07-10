@@ -3,7 +3,7 @@ import { Footer } from "components/footer"
 import { ContactForm } from "components/contact-form"
 
 export const metadata = {
-  title: "연락처 | 포트폴리오",
+  title: "연락처 | 이준수 portfolio",
   description: "궁금한 점이나 협업 제안이 있으시면 연락해주세요.",
 }
 

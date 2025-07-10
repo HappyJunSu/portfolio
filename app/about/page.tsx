@@ -3,7 +3,7 @@ import { Footer } from "components/footer"
 import { AboutContent } from "components/about-content"
 
 export const metadata = {
-  title: "소개 | 포트폴리오",
+  title: "소개 | 이준수 portfolio",
   description: "저에 대한 소개와 기술 스택, 경력 등을 확인하실 수 있습니다.",
 }
 
