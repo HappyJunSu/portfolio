@@ -3,8 +3,6 @@ const nextConfig = {
   //experimental: {
   //  appDir: true,
   //},
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio',
   eslint: {
     ignoreDuringBuilds: true,
   },
